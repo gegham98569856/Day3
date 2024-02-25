@@ -1,0 +1,13 @@
+body{
+    background: wheat;
+}
+input{
+    background: slategrey;
+}
+input[type="submit"]{
+    background: rgb(45, 43, 43);
+    color: white;
+}
+p{
+    color: sienna;
+}

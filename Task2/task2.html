@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        
+        div{
+            background: blue;
+            height: 85px;
+            width: 500px;
+            border: 2px solid black;
+            
+            
+        }
+        p{
+           color: aqua;
+           font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+        <div class="dd"><p>ԼՈՂ</p></div>
+        <div><p>ՊԱՐ</p></div>
+        <div><p>ԾՐԱԳՐԱՎՈՐՈՒՄ</p></div>
+        <div><p>ՖՈՒՏԲՈԼ</p></div>
+        <div><p>ԲԱՍԿԵՏԲՈԼ</p></div>
+        <div><p>ԸՆԹԵՐՑԱՆՈՒԹՅՈՒՆ</p></div>
+    
+    <script>
+        let box = document.querySelectorAll("div")
+        box.forEach(function(div){
+            div.addEventListener("mouseenter",function(){
+            div.style.backgroundColor = "green"
+            })
+            div.addEventListener("mouseleave",function(){
+            div.style.backgroundColor = "blue"
+        })
+        })
+        
+    </script>
+</body>
+</html>

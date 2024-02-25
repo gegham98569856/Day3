@@ -1,0 +1,17 @@
+.sliderBox {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sliderImg {
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+}
+body{
+    background: wheat;
+}
+button{
+    background: gray;
+}
+
